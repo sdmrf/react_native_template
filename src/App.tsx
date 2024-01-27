@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
+// Author: Sdmrf
 import React from 'react'
+
+// Imports
+import Screens from './routes/Screens';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
+    <Screens />
+  );
 }
 
 export default App
